@@ -1,0 +1,17 @@
+
+@Library('mpl-nested@master') _
+MPLInit()
+
+MPLPipeline {
+  agent_label = 'LS'
+  docker = [
+    artifacts: 'target/petclinic.war',
+    deploy_name: '${NODE_NAME}'
+  ]
+  selenium = [
+    maven_profile: 'selenium-tests',
+    target_url: 'http://target-host:8080/petclinic'
+  ]
+  // If used from job pipeline script using local repo
+  // git = [ url:'/home/user/Work/gd/petclinic-selenium', branch: 'master' ]
+}
