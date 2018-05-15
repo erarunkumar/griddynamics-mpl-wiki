@@ -4,6 +4,11 @@ MPL Wiki
 Examples
 --------
 
-* [simple-demo](./simple-demo) - Simple demo with Jenkinsfile and some modules
-* [mpl-nested](./mpl-nested) - Nested library
-* [petclinic-selenium](./petclinic-selenium) - Spring petclinic pipeline with selenium tests
+Please checkout the wiki repository to see the examples:
+```
+git clone https://github.com/griddynamics/mpl.wiki.git
+```
+
+* *simple-demo* - Simple demo with Jenkinsfile and some modules
+* *mpl-nested* - Nested library
+* *petclinic-selenium* - Spring petclinic pipeline with selenium tests
