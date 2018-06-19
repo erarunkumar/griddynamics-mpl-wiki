@@ -1,5 +1,5 @@
 /**
- * Deploy the simple selenium cluster via Docker
+ * Deploy a simple selenium cluster via Docker
  */
 
 def network_name = env.NODE_NAME
