@@ -8,6 +8,7 @@ Example of the nested library built on top of MPL
 * Initialization with custom modules path for the company
 * Overridden MavenBuild module that uses original one from MPL library
 * Additional simple pipeline NestedPipeline
+* Supports testing framework based on MPL
 
 ## TODO
 
