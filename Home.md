@@ -9,9 +9,15 @@ Overview & Demo videos
 4. Nested Library: https://youtu.be/UsThHFze76Y
 5. Petclinic Selenium: https://youtu.be/GLtvxY1S3Aw
 
+Setup Jenkins Master
+--------------------
+[Here is described](Jenkins-Master-setup) how to setup Jenkins Master using docker & dynamic agents.
+
 Examples
 --------
-Please checkout the wiki repository to see the examples:
+* MPL itself is an example of MPL - [how to build the MPL project](MPL-Build-example).
+
+The next examples you can find after checkout the wiki repository:
 ```
 git clone https://github.com/griddynamics/mpl.wiki.git
 ```
