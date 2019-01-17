@@ -1,6 +1,8 @@
 MPL Wiki
 ========
 
+Release article: https://blog.griddynamics.com/developing-a-modular-pipeline-library-to-improve-devops-collaboration/
+
 Overview & Demo videos
 ----------------------
 1. Intro: https://youtu.be/NpnQS3fFlyI
